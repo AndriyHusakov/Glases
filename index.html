@@ -6,40 +6,48 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Glasses</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-	<div class="container">
+	<div class="pool">
 		<div class="header">
-			<div class="logo">TRNDY</div>
-			<nav>
+			<div class="logo btn btn-outline-warning">TRNDY</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+				<div id="myDropdown" class="dropdown-content">
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+			  </div>
 				<ul>
 					<li><a href="#"></a>Descubra</li>
 					<li><a href="#"></a>Participe</li>
 				</ul>
 			</nav>
 		</div>
-	<main>
-		<img class="main-img" src="./img/main.png" alt="people with glasses">
-		<div class="circle-one"></div>
-		<div class="circle-two"></div>
-		<div class="circle-three"></div>
-		<div class="circle-four"></div>
-		<div class="main-text">
-			<br>
-			<br>
-			<br>
-			<br>
-			<h1>Óculos novos em um estalar de dedos!</h1>
-			<h3>Compre óculos dos mais variados com a TRNDY</h2>
+		<main>
+			<img class="main-img" src="./img/main.png" alt="people with glasses">
+			<div class="circle-one"></div>
+			<div class="circle-two"></div>
+			<div class="circle-three"></div>
+			<div class="circle-four"></div>
+			<div class="main-text">
 				<br>
-				<button class="main-button">Peça agora</button>
-		</div>
-	</main>
+				<br>
+				<br>
+				<br>
+				<h1>Óculos novos em um estalar de dedos!</h1>
+				<h3>Compre óculos dos mais variados com a TRNDY</h2>
+					<br>
+					<button type="button" class="btn btn-outline-danger main-button">Peça agora</button>
+			</div>
+		</main>
 	</div>
-
+	<script src="script.js"></script>
 </body>
 
 </html>
